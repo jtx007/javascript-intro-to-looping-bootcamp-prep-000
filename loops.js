@@ -1,13 +1,10 @@
-
 function forLoop(array) {
-  for (i = 0, i < 25, i++) {
-    if (i == 0) {
-      array.push("I am 1 strange loop.")
+  for (let i = 0; i < 25; i++) {
+    if (i === 1) {
+      array.push("I am 1 strange string.")
       return array
     } else {
-      array.push(`I am ${i} strange loop.`)
-      return aray
+      array.push(`I am ${i} strange string.`)
     }
   }
-
 }
