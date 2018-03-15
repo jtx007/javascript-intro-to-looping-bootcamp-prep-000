@@ -15,3 +15,13 @@ function whileLoop(number) {
   }
   return 'done'
 }
+
+function maybeTrue() {
+  return Math.random() >= 0.5 // Returns a random number between 0 (inclusive) and 1 (exclusive)
+}
+
+function doWhileLoop(array) {
+  do {
+
+  } while (array.length > 0 && maybeTrue())
+}
